@@ -2,12 +2,6 @@ import unittest
 from datetime import datetime
 from CarFactory import CarFactory
 
-from engine.model.calliope import Calliope
-from engine.model.glissade import Glissade
-from engine.model.palindrome import Palindrome
-from engine.model.rorschach import Rorschach
-from engine.model.thovex import Thovex
-
 carFactory = CarFactory()
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
